@@ -5,7 +5,21 @@ if (document.readyState == 'loading') {
 }
 
 function ready() {
-    button = document.getElementsByClassName('start-stop-btn')[0]
-    button.addEventListener("click", console.log("the button is working")
-    )
+    var button = document.getElementsByClassName('start-stop-btn')[0]
+    button.addEventListener("click", buttonClicked)
+}
+
+var isRuning = false
+
+function buttonClicked(event) {
+    var button = event.target
+    if (isRuning) {
+        button.innerText = "START"
+        isRuning = false
+    } else {
+        button.innerText = "STOP"
+        isRuning = true
+    }
+
+
 }

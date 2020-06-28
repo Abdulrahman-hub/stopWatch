@@ -39,12 +39,17 @@ body {
     background-color: #ffa45c;
     border: none;
     color: #53534d;
+    outline: none;
 }
 
 .start-stop-btn:hover {
     cursor: pointer;
     background-color: #f5872e;
     color: #30302d;
+}
+
+.start-stop-btn::-moz-focus-inner {
+    border: 0;
 }
 
 .cloumn {

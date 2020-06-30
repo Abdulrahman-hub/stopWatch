@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #fff4e3 ;
+    background-color: #3a3a38 ;
 }
 
 .clock-container {
@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #ffcdab;
 }
 
 .clock-container:hover{

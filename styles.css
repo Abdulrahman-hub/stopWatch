@@ -15,41 +15,48 @@ body {
 .clock-container {
     width: 250px;
     height: 150px;
-    background-color: #3a3a38;
     border-radius: .5em;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #ffcdab;
+    font-size: 3em;
+    color: #fff4e3;
 }
 
 .clock-container:hover{
     cursor: pointer;
 }
 
-.clock {
-    font-size: 3em;
-    color: #fff4e3;
-}
 
-.start-stop-btn {
+.start-btn {
     width: 200px;
     height: 60px;
     font-size: 2.5em;
     border-radius: .3em;
-    background-color: #ffa45c;
+    background-color: #f5872e;
     border: none;
-    color: #53534d;
+    color: #30302d;
     outline: none;
 }
 
-.start-stop-btn:hover {
+.start-btn:hover {
     cursor: pointer;
-    background-color: #f5872e;
-    color: #30302d;
+    background-color: #fdb274;
+    color: #2b2b28;
 }
 
-.start-stop-btn::-moz-focus-inner {
+.stop-btn{
+    background-color:  #53534d;
+    color:  #f77811;
+}
+
+.stop-btn:hover {
+    background-color: #75756c;
+    color:  #f77811;
+}
+
+.start-btn::-moz-focus-inner {
     border: 0;
 }
 
